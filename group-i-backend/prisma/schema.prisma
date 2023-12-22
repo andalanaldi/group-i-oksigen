@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model user {
+  id       Int      @id @default(autoincrement())
+  organization_name     String
+  organization_email    String   @unique
+  pic_firstname String
+  pic_lastname String
+  pic_role_institution     role
+  password String
+  premium_limit_date DateTime?
+  transactions       transaction[]
+}
+        
+enum role {
+  user
+  superadmin
+}
+
+model polution {
+  id          Int        @id @default(autoincrement())
+  cityId      Int
+  polution    String
+  caseRespiratory        Int
+  costverifRespiratory   BigInt
+  time        DateTime
+  location    location   @relation(fields: [cityId], references:[id])
+}
+
+model location {
+  id       Int      @id @default(autoincrement())
+  cityName String
+  cityLat  String
+  cityLon  String
+  polution polution[]
+}
+
+model transaction {
+  id        Int      @id @default(autoincrement()) 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  billCode  String
+  userId    Int
+  total     Int
+  token     String   @default("")
+  snapUrl   String   @default("")
+  status    String   @default("")
+  user      user     @relation(fields: [userId], references: [id])
+}

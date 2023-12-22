@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'customs.css';
+
+.noBorderCard {
+  border: none !important;
+}
+
+.border-tremor-brand {
+  --tw-border-opacity: 0 !important;
+  border: none !important;
+}
+
+a.leaflet-popup-close-button {
+  display: none;
+}
+
+rect {
+  border-radius: 10rem !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 100rem !important;
+  box-shadow: none;
+}
+
+/* to make sure that the zoom in/out is at the bottom of the screen */
+.leaflet-top {
+  bottom: 0 !important;
+  top: 0;
+  margin-bottom: 1rem;
+} 
