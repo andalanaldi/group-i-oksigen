@@ -3,6 +3,10 @@ Backend repository for group-i
 
 [Backend App is Deployed here](https://group-i-backend-floral-haze-8477.fly.dev)
 
+# API Documentation
+
+https://documenter.getpostman.com/view/29042682/2s9YkraKDV
+
 # Express Application (app.js)
 
 Purpose:
@@ -355,128 +359,244 @@ BPJS Dummy Sample Data
 
 https://e-ppid.bpjs-kesehatan.go.id/eppid/
 
-DATA SAMPEL BPJS KESEHATAN TAHUN 2015 - 2021
-Page 59/60
+DATA SAMPEL BPJS KESEHATAN TAHUN 2015 - 2021 Page 59/60 (In Bahasa Indonesia)
+
 Lampiran C: Penamaan File Data Pelayanan FKRTL No Variabel Label variabel Deskripsi
-1 PSTV01 Nomor peserta
+
+1. PSTV01 Nomor peserta
 Nomor identifikasi peserta yang bersifat unik dan telah dideidentifikasi untuk melindungi identitas peserta sebenarnya
-2 PSTV02 Nomor keluarga
+
+2. PSTV02 Nomor keluarga
 Nomor yang mengidentifikasi kepala keluarga dalam sampel dan berfungsi sebagai penanda keluarga (peserta BPJS Kesehatan dalam satu keluarga memiliki nomor kepala keluarga yang sama)
-3 PSTV15 Bobot
+3. PSTV15 Bobot
 Faktor pengali yang menggambarkan jumlah individu di dalam populasi diwakili oleh individu di dalam sampel
-4 FKP02 ID kunjungan FKTP
+
+4. FKP02 ID kunjungan FKTP
 ID Kunjungan pada data pelayanan FKTP sebagai variabel untuk menggabungkan pelayanan FKTP dan FKRTL
-5 FKL02 ID Kunjungan FKRTL
+
+5. FKL02 ID Kunjungan FKRTL
 Nomor identifikasi unik untuk menandakan setiap kunjungan ke FKRTL oleh peserta
-6 FKL03 Tanggal datang kunjungan FKRTL 
+
+6. FKL03 Tanggal datang kunjungan FKRTL 
 Tanggal melakukan kunjungan
-7 FKL04 Tanggal pulang kunjungan FKRTL 
+
+7. FKL04 Tanggal pulang kunjungan FKRTL 
 Tanggal menyelesaikan kunjungan
-8 FKL05 Provinsi FKRTL
+
+8. FKL05 Provinsi FKRTL
 Provinsi fasilitas kesehatan tempat peserta mengakses pelayanan FKRTL
-9 FKL06 Kabupaten/Kota FKRTL
+
+9. FKL06 Kabupaten/Kota FKRTL
 Kabupaten/kota fasilitas kesehatan tempat peserta mengakses pelayanan FKRTL
-10 FKL07 Kepemilikan FKRTL
+
+10. FKL07 Kepemilikan FKRTL
 Jenis kepemilikan dari fasilitas kesehatan rujukan tingkat lanjut
-11 FKL08 Jenis FKRTL 
+
+11. FKL08 Jenis FKRTL 
 Jenis fasilitas kesehatan rujukan tingkat lanjut
-12 FKL09 Tipe FKRTL 
+
+12. FKL09 Tipe FKRTL 
 Tipe fasilitas kesehatan rujukan tingkat lanjut
-13 FKL10 Tingkat Pelayanan FKRTL 
+
+13. FKL10 Tingkat Pelayanan FKRTL 
 Tingkat layanan di fasilitas kesehatan rujukan tingkat lanjut (FKRTL)
-14 FKL11 Jenis Poli FKRTL
+
+14. FKL11 Jenis Poli FKRTL
 Poli tempat melakukan kunjungan oleh peserta ke fasilitas kesehatan rujukan tingkat lanjut (FKRTL)
-15 FKL12 Segmen Peserta saat akses layanan FKRTL 
+
+15. FKL12 Segmen Peserta saat akses layanan FKRTL 
 Segmen peserta saat peserta mengakses pelayanan kesehatan di FKRTL
-16 FKL13 Kelas rawat peserta
+
+16. FKL13 Kelas rawat peserta
 Kelas rawat saat peserta mengakses pelayanan kesehatan di FKRTL
-17 FKL14 Status pulang dari FKRTL
+
+17. FKL14 Status pulang dari FKRTL
 Status kepulangan peserta setelah mendapatkan pelayanan kesehatan di FKRTL
-18 FKL15 Kode dan nama diagnosis masuk ICD 10 (3 digit) 
+
+18. FKL15 Kode dan nama diagnosis masuk ICD 10 (3 digit) 
 Kode dan nama diagnosis masuk berdasarkan ICD 10 yang di-input ke aplikasi INA-CBGs berdasarkan 3 digit pertama
-19 FKL15A Kode diagnosis masuk ICD 10 (3 digit)
-20 FKL16 Kode ICD 10 diagnosis masuk FKRTL (3-6digit) 
+
+19. FKL15A Kode diagnosis masuk ICD 10 (3 digit)
+
+20. FKL16 Kode ICD 10 diagnosis masuk FKRTL (3-6digit) 
 Kode diagnosis masuk berdasarkan ICD 10 yang diinput ke aplikasi INA-CBGs (jumlah digit beragam pada semua observasi dengan rentang 3-5 digit)
 
 Page 60/61
-21 FKL16A Nama diagnosis masuk FKRTL (3-6digit) 
+
+21. FKL16A Nama diagnosis masuk FKRTL (3-6digit) 
 Nama diagnosis masuk yang terbaca berdasarkan kode diagnosis (FKP15) yang di-input ke aplikasi INA-CBGs
-22 FKL17 Kode dan nama diagnosis primer ICD 10 (3 digit) 
+
+22. FKL17 Kode dan nama diagnosis primer ICD 10 (3 digit) 
 Kode dan nama diagnosis primer berdasarkan ICD 10 yang di-input ke aplikasi INA-CBGs berdasarkan 3 digit pertama
-23 FKL17A Kode diagnosis primer ICD 10 (3 digit)
-24 FKL18 Kode ICD 10 diagnosis primer FKRTL (3-6digit) 
+
+23. FKL17A Kode diagnosis primer ICD 10 (3 digit)
+
+24. FKL18 Kode ICD 10 diagnosis primer FKRTL (3-6digit) 
 Diagnosis Primer: diagnosis yang dipilih dokter pada hari terakhir perawatan dengan kriteria paling banyak menggunakan sumber daya atau hari rawatan paling lama.
-25 FKL18A Nama diagnosis primer FKRTL (3-6digit) 
+
+25. FKL18A Nama diagnosis primer FKRTL (3-6digit) 
 Nama diagnosis primer yang terbaca berdasarkan kode diagnosis (FKP15) yang di-input dalam aplikasi INA-CBGs
-26 FKL19 Kode INACBGs
+
+26. FKL19 Kode INACBGs
 Sistem kodifikasi dari diagnosis akhir dan tindakan/prosedur yang menjadi output pelayanan, dengan acuan ICD-10 untuk diagnosis dan ICD-9 untuk tindakan/prosedur
-1. Digit ke-1 (alfabetik) : menggambarkan kode CMG (Casemix Main Groups)
-2. Digit ke-2 (numerik) : menggambarkan tipe kelompok kasus (Case Groups)
-3. Digit ke-3 (numerik) : menggambarkan spesifikasi kelompok kasus
-4. Digit ke-4 (romawi): menggambarkan tingkat keparahan kelompok kasus
-27 FKL19A Deskripsi kode INACBGs
+ - Digit ke-1 (alfabetik) : menggambarkan kode CMG (Casemix Main Groups)
+ - Digit ke-2 (numerik) : menggambarkan tipe kelompok kasus (Case Groups)
+ - Digit ke-3 (numerik) : menggambarkan spesifikasi kelompok kasus
+ - Digit ke-4 (romawi): menggambarkan tingkat keparahan kelompok kasus
+
+27. FKL19A Deskripsi kode INACBGs
 Nama dari diagnosis akhir dan tindakan/prosedur yang menjadi output pelayanan, dengan acuan ICD- 10 untuk diagnosis dan ICD-9 untuk tindakan/prosedur
-28 FKL20
-INACBGs - Kode Casemix main groups (Digit ke-1) Case Mix Groups (CMG) sebagai klasifikasi tingkat pertama yang dilabelkan dengan huruf alfabet (A to Z) dan berhubungan dengan system organ tubuh yang disesuaikan dengan ICD 10
-29 FKL21
-INACBGs - Tipe kelompok kasus atau case groups (Digit ke-2) INA-CBGs-Tipe Kelompok kasus atau case groups (Digit ke-2)
-30 FKL22
-INACBGs - Spesifikasi kelompok kasus (Digit ke-3) Case type: sub-group ketiga yang menunjukkan spesifik CBGs yang dilambangkan dengan numerik mulai dari 01 sampai dengan 99 Sumber: Peraturan Menteri Kesehatan Republik Indonesia Nomor 76 Tahun 2016 tentang Pedoman Indonesian Case Base Groups (INA-CBG) dalam Pelaksanaan Jaminan Kesehatan Nasional
-31 FKL23
-INACBGs - Tingkat keparahan kelompok kasus(Digit ke-4) Sub-group keempat merupakan resource intensity level yang menunjukkan tingkat keparahan kasus yang dipengaruhi adanya komorbidita ataupun komplikasi dalam masa perawatan
+
+28. FKL20 INACBGs - Kode Casemix main groups (Digit ke-1) 
+Case Mix Groups (CMG) sebagai klasifikasi tingkat pertama yang dilabelkan dengan huruf alfabet (A to Z) dan berhubungan dengan system organ tubuh yang disesuaikan dengan ICD 10
+
+29. FKL21 INACBGs - Tipe kelompok kasus atau case groups (Digit ke-2) 
+INA-CBGs-Tipe Kelompok kasus atau case groups (Digit ke-2)
+
+30. FKL22 INACBGs - Spesifikasi kelompok kasus (Digit ke-3) 
+Case type: sub-group ketiga yang menunjukkan spesifik CBGs yang dilambangkan dengan numerik mulai dari 01 sampai dengan 99 Sumber: Peraturan Menteri Kesehatan Republik Indonesia Nomor 76 Tahun 2016 tentang Pedoman Indonesian Case Base Groups (INA-CBG) dalam Pelaksanaan Jaminan Kesehatan Nasional
+
+31. FKL23 INACBGs - Tingkat keparahan kelompok kasus(Digit ke-4) 
+Sub-group keempat merupakan resource intensity level yang menunjukkan tingkat keparahan kasus yang dipengaruhi adanya komorbidita ataupun komplikasi dalam masa perawatan
 
 Page 61/62
-32 FKL25 Provinsi faskes perujuk 
+
+32. FKL25 Provinsi faskes perujuk 
 Provinsi fasilitas kesehatan asal yang memberikan rujukan
-33 FKL26 Kabupaten/Kota faskes perujuk 
+
+33. FKL26 Kabupaten/Kota faskes perujuk 
 Kabupaten/kota fasilitas kesehatan asal yang memberikan rujukan
-34 FKL27 Kepemilikan faskes perujuk 
+
+34. FKL27 Kepemilikan faskes perujuk 
 Kepemilikan fasilitas kesehatan asal yang memberikan rujukan
-35 FKL28 Jenis faskes perujuk 
+
+35. FKL28 Jenis faskes perujuk 
 Jenis fasilitas kesehatan asal yang memberikan rujukan
-36 FKL29 Tipe faskes perujuk 
+
+36. FKL29 Tipe faskes perujuk 
 Tipe fasilitas kesehatan asal yang memberikan rujukan
-37 FKL30 Jenis prosedur
+
+37. FKL30 Jenis prosedur
 Jenis prosedur yang dilakukan pada pelayanan FKRTL
-38 FKL31 Tarif regional INACBGs
+
+38. FKL31 Tarif regional INACBGs
 Regionalisasi tarif terbagi menjadi 5 regional didasarkan pada indeks harga konsumen (IHK) Sumber: Peraturan Menteri Kesehatan Republik Indonesia Nomor 52 Tahun 2016 tentang Standar Tarif Pelayanan Kesehatan dalam Penyelenggaraan Program Jaminan Kesehatan
-39 FKL32 Group Tarif INACBGs
+
+39. FKL32 Group Tarif INACBGs
 Grup tarif paket yang meliputi seluruh komponen sumber daya rumah sakit yang digunakan dalam pelayanan baik medis maupun nonmedis. Lihat lampiran Peraturan Menteri Kesehatan Republik Indonesia Nomor 52 Tahun 2016 tentang Standar Tarif Pelayanan Kesehatan dalam Penyelenggaraan Program Jaminan Kesehatan
-40 FKL33 Kode special sub-acute groups (SA) 
+
+40. FKL33 Kode special sub-acute groups (SA) 
 Kode special sub-acute groups
-41 FKL34 Tarif special sub-acute groups (SA) 
+
+41. FKL34 Tarif special sub-acute groups (SA) 
 Tarif special sub-acute groups
-42 FKL35 Kode special procedures (SP) 
+
+42. FKL35 Kode special procedures (SP) 
 Kode special procedures
-43 FKL36 Deskripsi special procedures (SP) 
+
+43. FKL36 Deskripsi special procedures (SP) 
 Deskripsi special procedures
-44 FKL37 Tarif special procedures (SP)
+
+44. FKL37 Tarif special procedures (SP)
 Tarif special procedures
-45 FKL38 Kode special prosthesis (RR)
+
+45. FKL38 Kode special prosthesis (RR)
 Kode special prosthesis
-46 FKL39 Deskripsi special prosthesis (RR)
+
+46. FKL39 Deskripsi special prosthesis (RR)
 Deskripsi special prosthesis
-47 FKL40 Tarif special prosthesis (RR)
+
+47. FKL40 Tarif special prosthesis (RR)
 Tarif special prosthesis
-48 FKL41 Kode special investigation(SI)
+
+48. FKL41 Kode special investigation(SI)
 Kode special investigation
-49 FKL42 Deskripsi special investigation(SI)
+
+49. FKL42 Deskripsi special investigation(SI)
 Deskripsi special investigation
-50 FKL43 Tarif special investigation(SI)
+
+50. FKL43 Tarif special investigation(SI)
 Tarif special investigation
-51 FKL44 Kode special drugs (SD) 
+
+51. FKL44 Kode special drugs (SD) 
 Kode special drugs
 
 Page 62/63
-52 FKL45 Deskripsi special drugs (SD)
+
+52. FKL45 Deskripsi special drugs (SD)
 Deskripsi special drugs
-53 FKL46 Tarif special drugs (SD) 
+
+53. FKL46 Tarif special drugs (SD) 
 Tarif special drugs
-54 FKL47 Biaya Tagih - oleh fasilitas kesehatan (provider)
+
+54. FKL47 Biaya Tagih - oleh fasilitas kesehatan (provider)
 Biaya yang ditagihkan untuk setiap ID kunjungan yang merupakan penjumlahan dari FKL33 + FKL35 + FKL38 + FKL41 + FKL44 + FKL47
-55 FKL48 Biaya Verifikasi - BPJS Kesehatan 
+
+55. FKL48 Biaya Verifikasi - BPJS Kesehatan 
 setelah dilakukan verifikasi Biaya yang diverifikasi BPJS Kesehatan untuk setiap ID kunjungan
 
-# API Documentation
+FKL15	ICD10_Code	ICD10_Text A15-19 Tuberculosis of Lung, C34 Malignant neoplasm of bronchus and lung, Diseases of the respiratory system J00-J99
+11.	A15	A15 Respiratory tuberculosis, bacteriologically and histologically confirmed
+12.	A16	A16 Respiratory tuberculosis, not confirmed bacteriologically or histologically
+13.	A17	A17 Tuberculosis of nervous system
+14.	A18	A18 Tuberculosis of other organs
+15.	A19	A19 Miliary tuberculosis
+194.	C34	C34 Malignant neoplasm of bronchus and lung
+683.	J00	J00 Acute nasopharyngitis [common cold]
+684.	J01	J01 Acute sinusitis
+685.	J02	J02 Acute pharyngitis
+686.	J03	J03 Acute tonsillitis
+687.	J04	J04 Acute laryngitis and tracheitis
+688.	J05	J05 Acute obstructive laryngitis [croup] and epiglottitis
+689.	J06	J06 Acute upper respiratory infections of multiple and unspecified sites
+691.	J10	J10 Influenza due to other identified influenza virus
+692.	J11	J11 Influenza, virus not identified
+693.	J12	J12 Viral pneumonia, not elsewhere classified
+694.	J13	J13 Pneumonia due to Streptococcus pneumoniae
+695.	J14	J14 Pneumonia due to Haemophilus influenzae
+696.	J15	J15 Bacterial pneumonia, not elsewhere classified
+697.	J16	J16 Pneumonia due to other infectious organisms, not elsewhere classified
+699.	J18	J18 Pneumonia, organism unspecified
+700.	J20	J20 Acute bronchitis
+701.	J21	J21 Acute bronchiolitis
+702.	J22	J22 Unspecified acute lower respiratory infection
+703.	J30	J30 Vasomotor and allergic rhinitis
+704.	J31	J31 Chronic rhinitis, nasopharyngitis and pharyngitis
+705.	J32	J32 Chronic sinusitis
+706.	J33	J33 Nasal polyp
+707.	J34	J34 Other disorders of nose and nasal sinuses
+708.	J35	J35 Chronic diseases of tonsils and adenoids
+709.	J36	J36 Peritonsillar abscess
+710.	J37	J37 Chronic laryngitis and laryngotracheitis
+711.	J38	J38 Diseases of vocal cords and larynx, not elsewhere classified
+712.	J39	J39 Other diseases of upper respiratory tract
+713.	J40	J40 Bronchitis, not specified as acute or chronic
+714.	J41	J41 Simple and mucopurulent chronic bronchitis
+715.	J42	J42 Unspecified chronic bronchitis
+716.	J43	J43 Emphysema
+717.	J44	J44 Other chronic obstructive pulmonary disease
+718.	J45	J45 Asthma
+719.	J46	J46 Status asthmaticus
+720.	J47	J47 Bronchiectasis
+725.	J65	J65 Pneumoconiosis associated with tuberculosis
+728.	J68	J68 Respiratory conditions due to inhalation of chemicals, gases, fumes and vapours
+729.	J69	J69 Pneumonitis due to solids and liquids
+730.	J70	J70 Respiratory conditions due to other external agents
+731.	J80	J80 Adult respiratory distress syndrome
+732.	J81	J81 Pulmonary oedema
+734.	J84	J84 Other interstitial pulmonary diseases
+735.	J85	J85 Abscess of lung and mediastinum
+736.	J86	J86 Pyothorax
+737.	J90	J90 Pleural effusion, not elsewhere classified
+738.	J91	J91 Pleural effusion in conditions classified elsewhere
+740.	J93	J93 Pneumothorax
+741.	J94	J94 Other pleural conditions
+742.	J95	J95 Postprocedural respiratory disorders, not elsewhere classified
+743.	J96	J96 Respiratory failure, not elsewhere classified
+744.	J98	J98 Other respiratory disorders
 
-https://documenter.getpostman.com/view/29042682/2s9YkraKDV
+COVID-19 diagnosis (U07 & U08) are not included due to different claim scheme, the claim is directly processed by the Minister of Health and the data is not available in BPJS.
+
+# Slight view on Data Wranglisng and Analysis
+Data from AQI could be accessed directly via API, it has Latitude and Longitude data foe each cities, so it is easier to fecth AQI data for each cities daily. It has limitation on free plan tahn it can obly be access historical data by daily average, monthly avaerage, and 48 hours time frame. Nevertheless, Sample Data from BPJS Kesehatan needs to be proposed via PPID as their paltform for data and information request. The data is not in API accessible format but it is in Excel and Stata format which need Data Wrangling and analysis first. Machine Learing such as liniear regression forecasting for daily case and cost respiratory diseases related is needed to complete missing or unavailable data. Please access https://github.com/andalanaldi/polution-daily-backup for further Stata syntaxes on Data wrangling and analysis in Microsoft Excel.
+
