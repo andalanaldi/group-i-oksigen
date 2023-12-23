@@ -536,64 +536,64 @@ Biaya yang ditagihkan untuk setiap ID kunjungan yang merupakan penjumlahan dari 
 setelah dilakukan verifikasi Biaya yang diverifikasi BPJS Kesehatan untuk setiap ID kunjungan
 
 FKL15	ICD10_Code	ICD10_Text A15-19 Tuberculosis of Lung, C34 Malignant neoplasm of bronchus and lung, Diseases of the respiratory system J00-J99
-11.	A15	A15 Respiratory tuberculosis, bacteriologically and histologically confirmed
-12.	A16	A16 Respiratory tuberculosis, not confirmed bacteriologically or histologically
-13.	A17	A17 Tuberculosis of nervous system
-14.	A18	A18 Tuberculosis of other organs
-15.	A19	A19 Miliary tuberculosis
-194.	C34	C34 Malignant neoplasm of bronchus and lung
-683.	J00	J00 Acute nasopharyngitis [common cold]
-684.	J01	J01 Acute sinusitis
-685.	J02	J02 Acute pharyngitis
-686.	J03	J03 Acute tonsillitis
-687.	J04	J04 Acute laryngitis and tracheitis
-688.	J05	J05 Acute obstructive laryngitis [croup] and epiglottitis
-689.	J06	J06 Acute upper respiratory infections of multiple and unspecified sites
-691.	J10	J10 Influenza due to other identified influenza virus
-692.	J11	J11 Influenza, virus not identified
-693.	J12	J12 Viral pneumonia, not elsewhere classified
-694.	J13	J13 Pneumonia due to Streptococcus pneumoniae
-695.	J14	J14 Pneumonia due to Haemophilus influenzae
-696.	J15	J15 Bacterial pneumonia, not elsewhere classified
-697.	J16	J16 Pneumonia due to other infectious organisms, not elsewhere classified
-699.	J18	J18 Pneumonia, organism unspecified
-700.	J20	J20 Acute bronchitis
-701.	J21	J21 Acute bronchiolitis
-702.	J22	J22 Unspecified acute lower respiratory infection
-703.	J30	J30 Vasomotor and allergic rhinitis
-704.	J31	J31 Chronic rhinitis, nasopharyngitis and pharyngitis
-705.	J32	J32 Chronic sinusitis
-706.	J33	J33 Nasal polyp
-707.	J34	J34 Other disorders of nose and nasal sinuses
-708.	J35	J35 Chronic diseases of tonsils and adenoids
-709.	J36	J36 Peritonsillar abscess
-710.	J37	J37 Chronic laryngitis and laryngotracheitis
-711.	J38	J38 Diseases of vocal cords and larynx, not elsewhere classified
-712.	J39	J39 Other diseases of upper respiratory tract
-713.	J40	J40 Bronchitis, not specified as acute or chronic
-714.	J41	J41 Simple and mucopurulent chronic bronchitis
-715.	J42	J42 Unspecified chronic bronchitis
-716.	J43	J43 Emphysema
-717.	J44	J44 Other chronic obstructive pulmonary disease
-718.	J45	J45 Asthma
-719.	J46	J46 Status asthmaticus
-720.	J47	J47 Bronchiectasis
-725.	J65	J65 Pneumoconiosis associated with tuberculosis
-728.	J68	J68 Respiratory conditions due to inhalation of chemicals, gases, fumes and vapours
-729.	J69	J69 Pneumonitis due to solids and liquids
-730.	J70	J70 Respiratory conditions due to other external agents
-731.	J80	J80 Adult respiratory distress syndrome
-732.	J81	J81 Pulmonary oedema
-734.	J84	J84 Other interstitial pulmonary diseases
-735.	J85	J85 Abscess of lung and mediastinum
-736.	J86	J86 Pyothorax
-737.	J90	J90 Pleural effusion, not elsewhere classified
-738.	J91	J91 Pleural effusion in conditions classified elsewhere
-740.	J93	J93 Pneumothorax
-741.	J94	J94 Other pleural conditions
-742.	J95	J95 Postprocedural respiratory disorders, not elsewhere classified
-743.	J96	J96 Respiratory failure, not elsewhere classified
-744.	J98	J98 Other respiratory disorders
+-	A15	A15 Respiratory tuberculosis, bacteriologically and histologically confirmed
+-	A16	A16 Respiratory tuberculosis, not confirmed bacteriologically or histologically
+-	A17	A17 Tuberculosis of nervous system
+-	A18	A18 Tuberculosis of other organs
+-	A19	A19 Miliary tuberculosis
+-	C34	C34 Malignant neoplasm of bronchus and lung
+-	J00	J00 Acute nasopharyngitis [common cold]
+-	J01	J01 Acute sinusitis
+-	J02	J02 Acute pharyngitis
+-	J03	J03 Acute tonsillitis
+-	J04	J04 Acute laryngitis and tracheitis
+-	J05	J05 Acute obstructive laryngitis [croup] and epiglottitis
+-	J06	J06 Acute upper respiratory infections of multiple and unspecified sites
+-	J10	J10 Influenza due to other identified influenza virus
+-	J11	J11 Influenza, virus not identified
+-	J12	J12 Viral pneumonia, not elsewhere classified
+-	J13	J13 Pneumonia due to Streptococcus pneumoniae
+-	J14	J14 Pneumonia due to Haemophilus influenzae
+-	J15	J15 Bacterial pneumonia, not elsewhere classified
+-	J16	J16 Pneumonia due to other infectious organisms, not elsewhere classified
+-	J18	J18 Pneumonia, organism unspecified
+-	J20	J20 Acute bronchitis
+-	J21	J21 Acute bronchiolitis
+-	J22	J22 Unspecified acute lower respiratory infection
+-	J30	J30 Vasomotor and allergic rhinitis
+-	J31	J31 Chronic rhinitis, nasopharyngitis and pharyngitis
+-	J32	J32 Chronic sinusitis
+-	J33	J33 Nasal polyp
+-	J34	J34 Other disorders of nose and nasal sinuses
+-	J35	J35 Chronic diseases of tonsils and adenoids
+-	J36	J36 Peritonsillar abscess
+-	J37	J37 Chronic laryngitis and laryngotracheitis
+-	J38	J38 Diseases of vocal cords and larynx, not elsewhere classified
+-	J39	J39 Other diseases of upper respiratory tract
+-	J40	J40 Bronchitis, not specified as acute or chronic
+-	J41	J41 Simple and mucopurulent chronic bronchitis
+-	J42	J42 Unspecified chronic bronchitis
+-	J43	J43 Emphysema
+-	J44	J44 Other chronic obstructive pulmonary disease
+-	J45	J45 Asthma
+-	J46	J46 Status asthmaticus
+-	J47	J47 Bronchiectasis
+-	J65	J65 Pneumoconiosis associated with tuberculosis
+-	J68	J68 Respiratory conditions due to inhalation of chemicals, gases, fumes and vapours
+-	J69	J69 Pneumonitis due to solids and liquids
+-	J70	J70 Respiratory conditions due to other external agents
+-	J80	J80 Adult respiratory distress syndrome
+-	J81	J81 Pulmonary oedema
+-	J84	J84 Other interstitial pulmonary diseases
+-	J85	J85 Abscess of lung and mediastinum
+-	J86	J86 Pyothorax
+-	J90	J90 Pleural effusion, not elsewhere classified
+-	J91	J91 Pleural effusion in conditions classified elsewhere
+-	J93	J93 Pneumothorax
+-	J94	J94 Other pleural conditions
+-	J95	J95 Postprocedural respiratory disorders, not elsewhere classified
+-	J96	J96 Respiratory failure, not elsewhere classified
+-	J98	J98 Other respiratory disorders
 
 COVID-19 diagnosis (U07 & U08) are not included due to different claim scheme, the claim is directly processed by the Minister of Health and the data is not available in BPJS.
 
